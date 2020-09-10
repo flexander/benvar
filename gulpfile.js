@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 
 function css() {
-    return gulp.src('./src/scss/**/*.scss')
+    return gulp.src(['./src/scss/**/*.scss', '!./src/css/**/master.css'])
         .pipe(sass())
         .pipe(gulp.dest('./dist/css'));
 }
