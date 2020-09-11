@@ -5,6 +5,10 @@
   "main": "''",
   "author": "Flexander <>",
   "license": "MIT",
+  "scripts": {
+    "css": "yarn gulp css",
+    "watch": "yarn gulp watch"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",

@@ -2,7 +2,7 @@
     html {
         &:before {
             content: $label;
-            background: $colour;
+            background: #{$colour}66;
             //
             width: 100%;
             height: 60px;
@@ -18,6 +18,7 @@
             pointer-events: none;
             font-family: sans-serif;
             text-transform: uppercase;
+            text-shadow: 2px 2px 0 $colour;
         }
 
         &:after {
