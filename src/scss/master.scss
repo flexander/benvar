@@ -1,3 +1,5 @@
+@import "variables";
+
 @mixin benvar($colour, $label) {
     html {
         &:before {

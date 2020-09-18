@@ -1,2 +1,2 @@
 @import "master";
-@include benvar(#e71d36, 'production');
+@include benvar($color-prod, 'production');
