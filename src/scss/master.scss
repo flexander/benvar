@@ -1,6 +1,6 @@
 @import "variables";
 
-@mixin benvar($colour, $label) {
+@mixin benvar($colour, $label, $font-size: 16px) {
     html {
         &:before {
             content: $label;
@@ -12,12 +12,12 @@
             color: #fffA;
             display: block;
             position: fixed;
-            font-size: 16px;
             font-weight: bold;
             line-height: 60px;
             text-align: center;
             letter-spacing: 3px;
             pointer-events: none;
+            font-size: $font-size;
             font-family: sans-serif;
             text-transform: uppercase;
             text-shadow: 2px 2px 0 #{$colour}99;
