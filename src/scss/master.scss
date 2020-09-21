@@ -1,3 +1,5 @@
+@import "variables";
+
 @mixin benvar($colour, $label) {
     html {
         &:before {
@@ -22,6 +24,7 @@
         }
 
         &:after {
+            top: 0;
             content: '';
             width: 100%;
             height: 60px;
